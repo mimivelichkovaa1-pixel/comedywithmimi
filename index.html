@@ -304,8 +304,14 @@
   @media (prefers-reduced-motion: reduce){
     .sticker{animation:none;}
   }
+  @media (max-width:860px){
+    .sticker{width:120px;height:120px;top:-20px;right:-16px;}
+  }
   @media (max-width:500px){
-    .sticker{width:104px;height:104px;top:-18px;right:-14px;}
+    .sticker{width:92px;height:92px;top:-14px;right:-10px;}
+  }
+  @media (max-width:380px){
+    .sticker{width:76px;height:76px;top:-10px;right:-8px;}
   }
   @media (max-width:860px){
     .hero-grid{grid-template-columns:1fr;}
